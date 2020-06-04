@@ -1,0 +1,13 @@
+#Tue Oct 08 18:43:25 IST 2019
+path.3=classes3.dex
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=C\:\\Users\\MAYANK RANJAN\\AndroidStudioProjects\\SmartGarbage\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.2=C\:\\Users\\MAYANK RANJAN\\AndroidStudioProjects\\SmartGarbage\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+base.1=C\:\\Users\\MAYANK RANJAN\\AndroidStudioProjects\\SmartGarbage\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.0=C\:\\Users\\MAYANK RANJAN\\AndroidStudioProjects\\SmartGarbage\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

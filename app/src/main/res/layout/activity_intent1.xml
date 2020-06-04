@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Intent1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/listTitle"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textAllCaps="true"
+        android:text="Recyclable And Non-Recylable Products"
+        android:textAlignment="center"
+         />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:nestedScrollingEnabled="false"
+        android:orientation="vertical"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp"
+        android:visibility="visible" />
+
+</LinearLayout>

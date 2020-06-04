@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Recyclable Products At Our Home"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#0f0f0f"/>
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:nestedScrollingEnabled="true"
+        android:isScrollContainer="true"/>
+
+</LinearLayout>
